@@ -6,6 +6,8 @@ public class InstrumentoPercusion extends Instrumento{
 		super(nombre, precio);
 		
 	}
-	
+	public String tocar(){
+		return "Esta sonando un intrumento de percusión";
+	}
 
 }

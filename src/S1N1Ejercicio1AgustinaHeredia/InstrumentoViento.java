@@ -6,5 +6,8 @@ public class InstrumentoViento extends Instrumento {
 		super(nombre, precio);
 		
 	}
-
+	
+	public String tocar(){
+		return "Esta sonando un intrumento de viento";
+	}
 }

@@ -1,18 +1,19 @@
 package S1N1Ejercicio1AgustinaHeredia;
 
-public class Instrumento {
-	//definir atributos
+abstract class Instrumento {
+	
 	private String nombre;
 	private double precio;
 	
-	//método constructor
 	
 	public Instrumento (String nombre, double precio) {
 		this.nombre=nombre;
 		this.precio=precio;
 	}
-	
-	//método abstracto
+	public String toString() {
+		return "El instrumento es " + nombre + ", su precio es de "+ precio + " euros.";
+	}
+	public abstract String tocar();
 	
 
 }
